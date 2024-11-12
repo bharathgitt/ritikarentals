@@ -1,0 +1,23 @@
+<p>login works!</p>
+<div class="container">
+    <div class="col-md-6">
+<form>
+
+    <div data-mdb-input-init class="form-outline mb-4">
+      <input type="name" id="form2Example1" class="form-control" name="uname" [(ngModel)] ="username"/>
+      <label class="form-label" for="form2Example1">Username</label>
+    </div>
+  
+  
+    <div data-mdb-input-init class="form-outline mb-4">
+      <input type="password" id="form2Example2" class="form-control" name="ups" [(ngModel)] ="password"/>
+      <label class="form-label" for="form2Example2">Password</label>
+    </div>
+  
+    
+    <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-block mb-4" (click)="checkLogin()">Login</button>
+  
+    
+  </form>
+</div>
+</div>
